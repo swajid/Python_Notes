@@ -34,3 +34,13 @@ for fizzbuzz in range(50):
 
 # underscores
 
+# [zip](https://docs.python.org/3.3/library/functions.html#zip)
+takes in multiple sequences and combines them into tuples
+```
+>>> keys = ["foobar", "barzz", "ba!"]
+>>> dict(zip(keys, map(len,keys)))
+{'foobar': 6, 'barzz': 5, 'ba!': 3}
+```
+
+# References
+[Serious Python](https://nostarch.com/seriouspython)
