@@ -34,6 +34,25 @@ for fizzbuzz in range(50):
 
 # underscores
 
+# `__init__`
+initializer; initializes class instance (self) so that it's ready for use
+
+```
+class Vector:
+  def __init__(self,x,y):
+    self.x = x
+    self.y = y
+    
+>>> v
+<__main__.Vector at 0x7fb66e8cca10>
+>>> v = Vector(4,5)
+>>> v.x
+4
+>>> v.y
+5
+```
+
+
 # [zip](https://docs.python.org/3.3/library/functions.html#zip)
 takes in multiple sequences and combines them into tuples
 ```
