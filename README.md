@@ -32,6 +32,20 @@ for fizzbuzz in range(50):
   
 </details>
 
+# list and tuple operations and special syntax
+
+iterating through a list of tuples
+```
+for name,phone in listOfTuples:
+  if name == a_name:
+    return phone
+
+listOfTuples = [
+  ("name1", "555-555-5555"),
+  ("name2", "666-666-6666"),
+]
+```
+
 # underscores
 
 # `__init__`
