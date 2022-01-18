@@ -32,6 +32,20 @@ for fizzbuzz in range(50):
   
 </details>
 
+# Comprehensions
+## list
+```
+>>> list_o_nums = [x for x in range(100)]
+>>> sys.getsizeof(list_o_nums)
+920
+```
+## generator
+```
+>>> gen_o_nums = (x for x in range(100))
+<generator object <genexpr> at 0x7fb672d930d0>
+>>> sys.getsizeof(gen_o_nums)
+128
+```
 # list and tuple operations and special syntax
 
 iterating through a list of tuples
