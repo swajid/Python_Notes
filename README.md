@@ -46,6 +46,31 @@ for fizzbuzz in range(50):
 >>> sys.getsizeof(gen_o_nums)
 128
 ```
+
+# lambda
+```
+lambda arguments:return expression
+```
+## String Matching One Liner 
+<details>
+  
+```
+# Data
+>>> txt = ["TCCGTCGTAGTCTAGGTGGTTAGGATACTCG",
+    "GCTCTCACCCGAGAGACCCGGGTTCAAGTCC",
+    "CGGCGACGGAA"]
+    
+# One Liner
+>>> str_match = list(filter(lambda x: 'CCC' in x, txt))
+
+# Result
+>>> print(str_match)
+['GCTCTCACCCGAGAGACCCGGGTTCAAGTCC']
+```
+</details>
+
+
+
 # list and tuple operations and special syntax
 
 iterating through a list of tuples
